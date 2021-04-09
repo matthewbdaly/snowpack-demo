@@ -1,0 +1,21 @@
+{
+  "name": "snowpack-demo",
+  "version": "1.0.0",
+  "description": "Snowpack demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "snowpack": "^3.2.2",
+    "tailwindcss": "^2.1.1"
+  }
+}
