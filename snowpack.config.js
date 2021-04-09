@@ -1,10 +1,10 @@
 {
   plugins: [
-    "@snowpack/plugin-babel",
+    '@snowpack/plugin-babel',
     {
-      "input": ['.js', '.jsx', '.ts', '.tsx'],
+      'input': ['.js', '.jsx', '.ts', '.tsx'],
     },
-    "@snowpack/plugin-postcss",
-    "@snowpack/plugin-typescript"
+    '@snowpack/plugin-postcss',
+    '@snowpack/plugin-typescript'
   ]
 }
