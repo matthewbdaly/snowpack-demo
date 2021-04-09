@@ -9,6 +9,12 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 
-if (import.meta.hot) {
-  import.meta.hot.accept();
+interface ImportMeta {
+  readonly hot?: {
+    accept: () => void;
+  };
+}
+
+if ((import.meta as ImportMeta).hot) {
+  (import.meta as ImportMeta).hot?.accept();
 }
