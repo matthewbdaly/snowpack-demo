@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@snowpack/plugin-babel": "^2.1.7",
     "@snowpack/plugin-postcss": "^1.2.2",
     "@snowpack/plugin-typescript": "^1.2.1",
     "@types/react": "^17.0.3",
